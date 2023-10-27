@@ -509,10 +509,50 @@ a{
         font-size: 14px;
         font-weight: 500;
         color: rgb(83, 78, 78);
+    }   
+}
+
+
+@media (max-width:468px){
+    .navbar{
+        width: 80%;
     }
-    
 
+    .grids{
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100% 100%;
+        grid-template-rows: 400px 300px 400px 300px 400px 300px 400px 300px 400px 300px 400px 300px 300px 250px   ;    
+    }
 
-    
+    .box{
+        width: 100%;
+        height: auto;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .notes{
+        width: 100%;
+        height: auto;
+        padding-inline: 20px;
+        font-size: 13px;
+        text-align: center;
+    }
+    .notes p:first-child{
+        display: none;
+    }
+
+    .bottom span{
+        width: 60%;
+    }
+
+    .box button{
+        width: 120px;
+        height: 30px;
+        font-size: 15px;
+    }
+
     
 }
